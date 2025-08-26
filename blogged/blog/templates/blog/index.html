@@ -1,0 +1,15 @@
+{%extends 'blog/base.html'%}
+
+{% block title %}Welcome to Blogged{%endblock%}
+
+{%block content%}
+<div class="grid grid-cols-3 gap-6">
+    {%for post in posts%}
+    <div class="p-6 bg-gray-100">
+        <h2 class="mb-6 text-xl">{{post.title}}</h2>
+
+        <a href="{% url 'detail' post.slug %}" class="text-emerald-700">Read More</a>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}

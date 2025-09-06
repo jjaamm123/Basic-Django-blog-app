@@ -1,6 +1,6 @@
 # Blogged - Django Blog Application
 
-This is a simple blog application I built with React-Django. It features post listing, detailed post views with slug-based URLs, and a commenting system powered by Django forms.
+This is a simple blog application I built with Django. It features post listing, detailed post views with slug-based URLs, and a commenting system powered by Django forms.
 
 ## Features
 
